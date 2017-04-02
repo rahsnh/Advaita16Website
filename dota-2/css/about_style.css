@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400);
+@import url(https://fonts.googleapis.com/css?family=Palanquin+Dark:600);
+@font-face {
+    font-family: "myFirstFont";
+    src: url(ClementePDaa-Hairline.ttf);
+    font-weight: bold;
+}
+body {
+	margin: 0% 12%;
+}
+.embed-container { 
+	position: relative;
+	padding-bottom: 56.25%; 
+	height: 0; 
+	overflow: hidden; 
+	max-width: 100%; 
+} 
+.embed-container iframe, .embed-container object, .embed-container embed { 
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	width: 100%; 
+	height: 100%;
+}
+h1 {
+  font-family: "myFirstFont";
+  font-size: 3vw;
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+h2 {
+	font-family: 'Montserrat';
+	font-family: 'Palanquin Dark', sans-serif;
+	color:#0795FC;
+	font-size: 2.8em;
+	letter-spacing: 5px;
+  	text-align: center;
+  	text-transform: uppercase;
+}
+
+p {
+  font-family: 'Shadows Into Light', cursive;  font-size: 1.6vmax;
+  font-family: 'Raleway', sans-serif;
+  margin:5%;
+  line-height: 2.5vmax;
+  text-align: justify;
+}
+.container{
+	margin:auto;
+	margin-top:2vw;
+	background:#FFFFFF;
+	height:60%;
+}
+img{
+	height:100%;
+}
+pre{
+  font-size: 1.6vmax;
+  font-family: 'Raleway', sans-serif;
+  margin:5%;
+  line-height: 2.5vmax;
+  text-align: justify;
+ }

@@ -1,0 +1,334 @@
+@charset "utf-8";
+/* CSS Document */
+/*Header divs*/
+header {
+	background:#F3D34D;
+	width: 100%;
+    padding-top:30px;
+    margin-top:-10px;   
+	position:relative;
+	z-index:1;
+	height:0em;
+}
+.header-image{
+	width:300px;
+	margin:auto;
+	margin-top:0px;
+	height:inherit;
+}
+.header-row{
+	margin:0px;
+	left:0px;
+	width:300px;
+	height:inherit;
+	align-content:center;
+}
+.col{
+	float:left;
+	width:300px;
+	height:100%;
+	align-content:center;
+	margin:.2%;
+}
+.colimg{
+	margin-top:1%;
+	width:300px;
+	align-content:center;
+
+}
+
+
+/*footer divs*/
+footer {
+	position:fixed;
+	bottom:0;
+	left: 0;
+	height: 10%;
+	width: 100%;
+	background: #07111e;
+	text-align: center;
+	border-top: 3px solid #f62a00;
+	
+}
+
+.container-fluid .row{
+	width: 80%;
+	height:auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+ .container-fluid .row .col-md-8{
+
+	float: center;
+	list-style-type: none;
+    padding-left: 10px;
+	margin-top: 18px;
+    margin-bottom: 18px;
+}
+ .container-fluid .row .col-md-8 li {
+ 	
+	display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.container-fluid .row .col-md-8 a{
+	margin-top: 5px;
+	text-decoration:none;
+    font-family: 'Vollkorn', serif;
+    font-weight: 500;
+	color:#ffffff;
+	font-size: 15px;
+}
+ .container-fluid .row .col-md-4 {
+ 	margin-top: 18px;
+    margin-bottom: 18px;
+	list-style-type: none;
+}
+.container-fluid .row .col-md-4 li {
+	display: inline;
+    padding-right: 2px;
+    padding-left: 2px;
+    
+}
+
+.mybtn {
+	top: 10%;
+	right: 2%;
+}
+
+
+
+@media all and (orientation:portrait) {
+/* Style adjustments for portrait mode goes here */
+	header{
+		height:10em;
+	}
+	.header-image{
+		visibility:hidden;
+		height:0px;
+	}
+	
+	
+	.content img{
+		width:40%;
+		margin-left:28%;
+	}
+	
+}
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape){
+
+	header{
+		height:10em;
+	}
+	.header-image{
+		visibility:hidden;
+		height:0px;
+	}
+	
+	
+	.content img{
+		width:40%;
+		margin-left:28%;
+	}
+	
+}
+
+@media only screen and (max-device-width : 349px) {
+	
+    footer .container-fluid .row  { width: 100%;}
+	footer { height: 15%} 
+	
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    
+    footer .container-fluid .row  { width: 100%;}
+	footer { height: 15%} 
+}
+/* Ipads */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait){
+	
+	footer .container-fluid .row  { width: 100%;}
+	footer { height: 10%}  
+	footer .container-fluid .row .col-md-8 a { font-size: 15px;}
+	
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    
+	footer .container-fluid .row  { width: 100%;}
+	footer { height: 10%} 
+	footer .container-fluid .row .col-md-8 a { font-size: 15px;}   
+}
+
+/* Laptops and Desktop */
+
+
+
+
+    
+
+
+/* Iphone 6+ */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) {
+    
+	footer .container-fluid .row  { width: 100%;}
+	footer { height: 18%} 
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait){
+   
+	footer .container-fluid .row  { width: 100%;}
+	footer { height: 10%}
+    
+}
+
+/*iphone 4*/
+
+@media only screen and (min-device-width : 320px) and (max-device-height : 480px) and (orientation : landscape)  {
+	
+	footer .container-fluid .row  { width: 100%;}
+	footer { height: 18%} 
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-height : 480px) and (orientation : portrait)  {
+	
+	footer .container-fluid .row  { width: 100%;}
+	footer { height: 10%} 
+    
+
+}
+
+/*iphone 5 */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+	
+	footer .container-fluid .row  { width: 100%;}
+	footer { height: 18%} 
+    
+
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    
+	footer .container-fluid .row  { width: 100%;}
+	footer { height: 10%} 
+    
+}
+
+/* Iphone 6 */
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+	
+	footer .container-fluid .row  { width: 100%;}
+	footer { height: 18%} 
+    
+
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+    footer .container-fluid .row  { width: 100%;}
+	footer { height: 10%} 
+    
+}
+/* L70 */
+@media only screen and (min-device-width: 640px) and (max-device-height: 384px) and (orientation : landscape) {
+	
+    footer .container-fluid .row  { width: 100%;}
+	footer { height: 18%}
+
+}
+
+
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) {
+    
+	footer .container-fluid .row  { width: 100%;}
+	footer { height: 18%}
+    
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) {
+    
+	footer .container-fluid .row  { width: 100%;}
+	footer { height: 10%}
+    
+}
+
+
+
+
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) {
+    
+	footer .container-fluid .row  { width: 100%;}
+	footer { height: 18%}
+    
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait){
+    
+	 footer .container-fluid .row  { width: 100%;}
+	footer { height: 10%} 
+    
+}
+
+/* Nexus 7 */
+@media only screen and (min-device-width: 960px) and (max-device-height: 600px) and (orientation : landscape) {
+    
+	footer .container-fluid .row  { width: 100%;}
+	footer { height: 18%}
+    
+}
+
+@media only screen and (min-device-width: 600px) and (max-device-height: 960px) and (orientation : portrait) {
+    
+	footer .container-fluid .row  { width: 100%;}
+	footer { height: 10%} 
+}
+
+/*Nexus 10*/
+@media only screen and (min-device-width: 1280px) and (max-device-height: 800px) and (orientation : landscape) {
+    
+	footer .container-fluid .row  { width: 100%;}
+	footer { height: 18%}
+    
+}
+
+
+@media only screen and (min-device-width: 800px) and (max-device-height: 1280px) and (orientation : portrait) {
+    
+	footer .container-fluid .row  { width: 100%;}
+	footer { height: 10%} 
+}
+
+/* Lumia */
+@media only screen and (min-device-width: 533px) and (max-device-height: 320px) and (orientation : landscape) {
+    
+	footer .container-fluid .row  { width: 100%;}
+	footer { height: 18%}
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 533px) and (orientation : portrait) {
+    
+	 footer .container-fluid .row  { width: 100%;}
+	footer { height: 10%} 
+   
+}
+/*Laptops and Desktop*/
+@media only screen  and (min-width : 1280px) {
+    footer .container-fluid .row  { width: 80%;}
+	footer { height: 9%}   
+    
+    
+}
+
+@media only screen  and (min-width : 1440px) {
+    footer .container-fluid .row  { width: 80%;}
+	footer { height: 7%}  
+    
+    
+}
+
+

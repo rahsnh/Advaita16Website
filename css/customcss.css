@@ -1,0 +1,376 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+
+	padding : 0px;
+	margin-top: -20px;
+	margin-bottom: -30px;
+	height: 100%;
+	-webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+	overflow:hidden;
+}
+.bgnd{
+	background:#CFDCFF;
+    max-width: 100%;
+    height: auto;
+
+}
+body{
+	background-image:url(../website/islands/background.jpg) ;
+	background-size:contain;
+    background-position:center;
+	margin:0px 0px;
+	padding-top:0px;
+	padding-left:0px;
+	overflow:hidden;
+	display: table;
+	width: 100%;
+	background-size: cover;
+	height:auto;
+}
+
+
+#bg{
+	/*background:#000000 url(../website/21.png);*/
+	margin-top:0px;
+	padding:0px;
+}
+
+li{
+	width:auto;
+}
+img,map{
+	margin-top:0px;
+	padding:0px;
+	padding-left:0px;
+	margin-left:0em;
+	max-width: 120%;
+	width:100%;
+	overflow:hidden;
+	height:auto;
+	outline:none;
+}
+img[usemap] {
+	border:none;
+	margin-top:0px;
+	padding:0px;
+	padding-left:0px;
+	margin-left:0em;
+	max-width: 120%;
+	width:100%;
+	overflow:hidden;
+	height:auto;
+	outline:none;
+	}
+.header-row{
+	margin:0px;
+	left:0px;
+	height:inherit;
+	vertical-align:middle;
+}
+
+
+.container{
+	width:70%;
+}
+
+p{
+	text-align:center;
+	font-size:1vw;
+	margin:0px 15%;
+}
+
+audio{
+	position:absolute;
+	float:right;
+	bottom:8%;
+	right: 1%;
+}
+.mobview{
+	width:90%;
+	margin:auto;
+	margin-top:9%;
+	z-index:20;
+}
+h1{
+	font-size:6vw;
+	text-align:center;
+}
+
+.small{
+	margin:0px;
+	width:100%;
+}
+.cloud{
+	margin-left:-220px;
+	margin-top:-120px;
+	width:140%;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-height : 480px) and (orientation : landscape)  {
+	
+	p{
+		font-size:1.2vw;
+	}
+}
+
+
+
+@media all and (orientation:portrait) {
+/* Style adjustments for portrait mode goes here */
+	header{
+		height:10em;
+	}
+	.header-image{
+		visibility:hidden;
+		height:0px;
+	}
+	
+	#bg{
+		visibility:hidden;
+		height:0px;	
+	}
+	a{
+		font-size:3vw;
+	}
+	
+	audio{
+		bottom:10%;
+	}
+	img{
+		width:23%;
+		margin-left:38%;
+	}
+	.col-md-1{
+		margin-bottom:10px;
+	}
+	p{
+		font-size:1.5vw;
+		margin:0px 4%;
+	}
+	.arrow{
+		height:0px;
+		margin:0px;
+	}
+	.mobview{
+		margin-top:15%;
+	}
+	
+	
+}
+@media only screen and (min-device-width : 320px) and (max-device-height : 480px) and (orientation : landscape)  {
+	
+	p{
+		font-size:1.2vw;
+	}
+}
+
+
+
+@media all and (orientation:portrait) {
+/* Style adjustments for portrait mode goes here */
+	header{
+		height:10em;
+	}
+	.header-image{
+		visibility:hidden;
+		height:0px;
+	}
+	
+	#bg{
+		visibility:hidden;
+		height:0px;	
+	}
+	body{
+		background:url(../website/mobile.jpg) no-repeat;
+		margin:auto;
+		width:100%;
+		background-size:contain;
+   		background-position:center;
+		margin:0px 0px;
+		padding-top:0px;
+		padding-left:0px;
+	}
+	a{
+		font-size:3vw;
+	}
+	
+	audio{
+		bottom:10%;
+	}
+	img{
+		width:23%;
+		margin-left:38%;
+	}
+	.col-md-1{
+		margin-bottom:10px;
+	}
+	p{
+		font-size:1.5vw;
+		margin:0px 4%;
+	}
+	.arrow{
+		height:0px;
+		margin:0px;
+	}
+	.mobview{
+		margin-top:15%;
+		visibility:hidden;
+	}
+	
+	
+}
+@media only screen and (min-device-width : 320px) and (max-device-height : 480px) and (orientation : portrait)  {
+	
+	p{
+		font-size:1.2vw;
+	}
+    
+
+}
+
+@media only screen and (max-device-width: 1100px) and (orientation : landscape){
+	body{
+		background:url(../website/landscape.jpg) no-repeat;
+		margin:auto;
+		width:100%;
+		background-size:contain;
+    	background-position:center;
+		margin:0px 0px;
+		padding-top:0px;
+		padding-left:0px;
+	}
+	header{
+		height:10em;
+	}
+	.header-image{
+		visibility:hidden;
+		height:0px;
+	}
+	
+	#bg{
+		visibility:hidden;
+		height:0px;	
+	}
+	a{
+		font-size:1.7vw;
+	}
+	
+
+	audio{
+		bottom:10%;
+	}
+	img{
+		width:23%;
+		margin-left:38%;
+	}
+	.col-md-1{
+		margin-bottom:10px;
+	}
+	p{
+		font-size:1.2vw;
+		margin:0px 8%;
+	}
+	.arrow{
+		height:0px;
+		margin:0px;
+	}
+	h1{
+		font-size:3vw;
+	}
+}
+@media only screen and (min-device-width: 1100px) and (orientation:landscape) {
+
+	header{
+		visibility:hidden;
+		height:2em;
+	}
+	.mobview{
+		visibility:hidden;
+		height:0px;
+	}
+	.small{
+		visibility:hidden;
+		height:0px;
+	}
+	.gn-menu-main{
+		visibility:hidden;
+	}
+	.arrow{
+		display:none;
+		height:100%;
+		width:auto;
+	}
+	
+}
+
+
+
+	area:focus{
+		outline:0px;
+	}
+  .mobview h1 {
+  font-family:  'Hoefler Text', Georgia, 'Times New Roman', serif;
+  font-weight: normal;
+  font-size: 1.75em;
+  letter-spacing: .2em;
+  line-height: 1.1em;
+  margin:0px;
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  text-decoration: underline;
+  color:#07111e;
+  }
+  .mobview p {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #444;
+    font-weight: 400;
+  }
+  .mobview .highlight {
+    color: #f62a00;
+    font-family: 'Times New Roman', 'times-roman', georgia, serif;
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 700;
+  }
+	.mobview .high1 {
+    color: #07111e;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+  }
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape){
+  .mobview p {font-size: 12px; line-height: 15px;}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-height : 480px) and (orientation : landscape)  {
+  .mobview p {font-size: 12px; line-height: 13px;}
+}
+	
+.baloon {
+	position: fixed;
+	z-index:101; 
+	width: 19%; 
+	top: 0;
+	right: 0;
+	height:30%;
+	right: 0;
+}	
+@media all and (orientation:portrait) {
+	.baloon{
+		visibility:hidden;
+		height:0px;	
+	}
+}
+@media only screen and (max-device-width: 1100px) and (orientation : landscape){
+	.baloon{
+		visibility:hidden;
+		height:0px;	
+	}
+}

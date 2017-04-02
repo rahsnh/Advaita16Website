@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+/*Header divs*/
+header {
+	background:#F3D34D;
+	width: 100%;
+    padding-top:30px;
+    margin-top:-10px;   
+	position:relative;
+	z-index:1;
+	height:6em;
+}
+.header-image{
+	width:300px;
+	margin:auto;
+	margin-top:0px;
+	height:inherit;
+}
+.header-row{
+	margin:0px;
+	left:0px;
+	width:300px;
+	height:inherit;
+	align-content:center;
+}
+.col{
+	float:left;
+	width:300px;
+	height:100%;
+	align-content:center;
+	margin:.2%;
+}
+.colimg{
+	margin-top:1%;
+	width:300px;
+	align-content:center;
+
+}
+
+
